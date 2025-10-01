@@ -1,9 +1,9 @@
-import { ItemFigure } from './ItemFigure';
-import { Figure } from '../figures/Figure';
-import { MushroomMode, images, Direction, setup } from '../engine/constants';
+import { setStyle } from '../../../../utils/utils';
+import { Direction, MushroomMode, images, setup } from '../engine/constants';
 import { Level } from '../engine/Level';
+import { Figure } from '../figures/Figure';
 import { Mario } from '../figures/Mario';
-import { setStyle } from '../../../utils/utils';
+import { ItemFigure } from './ItemFigure';
 
 export class Mushroom extends ItemFigure {
   mode: MushroomMode;

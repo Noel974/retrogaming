@@ -1,8 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const AboutPage: React.FC = () => {
   return (
     <div className="retro-about-container">
+                  <div style={{ marginTop: '20px' }}>
+        <Link to="/" className="retro-button">
+          ⬅ Retour à l'accueil
+        </Link>
+      </div>
       <h1 className="retro-title">ℹ️ À propos</h1>
 
       <section className="retro-section">
@@ -15,7 +22,7 @@ const AboutPage: React.FC = () => {
       </section>
 
       <section className="retro-section">
-        <h2>💻 L'entreprise</h2>
+        <h2>💻AMAJNOEL</h2>
         <p>
           Je suis auto-entrepreneur spécialisé dans la conception de logiciels sur mesure. Passionné par le développement
           web et les interfaces créatives, je propose des solutions adaptées aux besoins des particuliers et des entreprises :

@@ -1,9 +1,9 @@
-import { ItemFigure } from './ItemFigure';
-import { Figure } from '../figures/Figure';
+import { setStyle } from '../../../../utils/utils';
 import { Level } from '../engine/Level';
-import { images, setup, GroundBlocking } from '../engine/constants';
+import { GroundBlocking, images, setup } from '../engine/constants';
+import { Figure } from '../figures/Figure';
 import { Mario } from '../figures/Mario';
-import { setStyle } from '../../../utils/utils';
+import { ItemFigure } from './ItemFigure';
 
 export class Star extends ItemFigure {
   active: boolean;

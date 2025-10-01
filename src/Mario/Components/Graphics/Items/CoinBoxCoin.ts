@@ -1,7 +1,7 @@
+import { setStyle, shiftBy } from '../../../../utils/utils';
 import { Level } from '../engine/Level';
 import { images, setup } from '../engine/constants';
 import { Mario } from '../figures/Mario';
-import { setStyle, shiftBy } from '../../../utils/utils';
 import { Coin } from './Coin';
 
 export class CoinBoxCoin extends Coin {

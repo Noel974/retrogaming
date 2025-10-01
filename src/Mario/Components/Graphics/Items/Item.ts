@@ -1,8 +1,8 @@
-import { Matter } from '../matter';
+import { shiftBy } from '../../../../utils/utils';
 import { GroundBlocking, setup } from '../engine/constants';
 import { Level } from '../engine/Level';
 import { Mario } from '../figures/Mario';
-import { shiftBy } from '../../../utils/utils';
+import { Matter } from '../matter';
 
 export class Item extends Matter {
   isBouncing: boolean;
